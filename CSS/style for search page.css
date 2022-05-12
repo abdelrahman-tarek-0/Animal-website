@@ -1,0 +1,121 @@
+:root {
+    --maincolor: #000000;
+    --secondcolor: red;
+    --thirdcolor: gray;
+    --bagecolor1: #fff;
+    --bagecolor2: #2a2a;
+    --padding: 8%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html {
+    font-size: 16px;
+    /* default color */
+    color: var(--bagecolor1);
+    background-color: #000000;
+}
+
+/*.............................................................................................................
+............................................Home section..................................................................
+...................................................................*/
+
+h2 {
+    font-size: 2.2rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+    font-family: 'Piedra', cursive;
+    font-size: 60px;
+
+
+}
+
+span {
+    color: var(--secondcolor);
+}
+
+nav {
+    padding-top: 2.8rem;
+    padding-bottom: 0.5rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 3px 10px 4px #fff;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+}
+
+nav ul li a {
+    color: var(--bagecolor1);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+    border-left: 3px solid transparent;
+}
+
+nav ul li a:hover {
+    color: var(--secondcolor);
+    border-left: 3px solid var(--bagecolor1);
+}
+
+
+.home {
+    width: 100%;
+    height: 90vh;
+    background-color: var(--maincolor);
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+nav .bt {
+    background-color: var(--secondcolor);
+    color: var(--bagecolor1);
+    text-decoration: none;
+    padding: 0.5em 0.5rem;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.4s;
+    border: 2px transparent solid;
+}
+
+nav .bt:hover {
+    background-color: transparent;
+    color: var(--bagecolor1);
+    border: 2px var(--secondcolor) solid;
+}
+
+input {
+    background-color: rgb(32, 78, 75);
+    font-size: 80px;
+    margin-top: 200px;
+    margin-left: 40px;
+    border-bottom: rgb(4, 54, 50) 15px solid;
+    transition: 0.5s;
+    color: #000000;
+}
+
+input:hover {
+    box-shadow: 3px 3px 10px 4px rgb(185, 181, 181);
+}
+
+/*.............................................................................................................
+............................................footer section..................................................................
+...................................................................*/
+
+footer span {
+    color: #ff0000;
+}
