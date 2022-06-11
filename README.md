@@ -5,4 +5,4 @@ This is a project for the IT practical exam in FCAI-HU
 
 website about animals
 
-project made by 4 developers
+project made by 3 developers
